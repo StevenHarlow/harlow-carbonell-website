@@ -11,6 +11,9 @@
   display: flex;
   min-height: 200px;
   position: relative;
+  max-width: var(--size-max-width);
+  padding: 0 0 var(--size-gutter);
+  margin: 0 auto;
 }
 
 .image {
